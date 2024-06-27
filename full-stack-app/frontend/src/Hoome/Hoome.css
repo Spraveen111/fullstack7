@@ -1,0 +1,35 @@
+.Unlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image-css {
+  height: auto;
+  width: 250px;
+}
+.list-css {
+  text-align: start;
+  margin-bottom: 100px;
+}
+.vegitable-name {
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 700;
+  font-size: 19px;
+}
+.vegitable-price {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 10px;
+}
+
+.add-to-cart-button {
+  border-radius: 10px;
+  border: solid 1px;
+  font-size: 8px;
+  background-color: #adf597;
+}
+.add-to-cart-button:hover {
+  font-size: 9px;
+}

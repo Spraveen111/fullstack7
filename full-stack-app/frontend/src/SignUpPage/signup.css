@@ -1,0 +1,55 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* background-image:linear-gradient(black,yellow); */
+  background-color: green;
+}
+.form-container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  border: solid 0px;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: #d8e5f2;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.input-container-image {
+  display: flex;
+}
+.image-elemenet {
+  height: 80px;
+  width: 80px;
+}
+
+.input-container {
+  margin: 10px;
+}
+.label-element-name {
+  padding-right: 74px;
+}
+.label-element-phone {
+  padding-right: 10px;
+}
+.label-element-email {
+  padding-right: 78px;
+}
+.label-element-password {
+  padding-right: 50px;
+}
+.input-element {
+  padding: 8px;
+  border-radius: 10px;
+}
+.button-css {
+  padding: 8px;
+  border-radius: 10px;
+  border: 0px;
+  margin-right: 10px;
+}
+.button-css:hover {
+  background-color: #7eb585;
+}
